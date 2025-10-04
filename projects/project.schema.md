@@ -1,0 +1,11 @@
+# Project Schema (v0)
+- name: string (required)
+- type: enum {Event|Infrastructure|Outreach|Other}
+- owner: string
+- status: enum {Idea|Planning|Active|Complete}
+- timeline: string|dates
+- objective: markdown
+- scope: list
+- dependencies: list
+- risks: list
+- metrics: list

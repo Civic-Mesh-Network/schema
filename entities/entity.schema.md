@@ -1,0 +1,11 @@
+# Entity Schema (v0)
+- name: string (required)
+- category: enum {Business|CommunityOrg|Institution|Cultural}
+- address: string
+- contacts: array [{name, role, email/phone}]
+- summary: markdown
+- meshFit:
+  - contributions: list
+  - needs: list
+  - risks: list
+- links: array [{label,url}]

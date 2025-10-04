@@ -1,0 +1,12 @@
+# Persona Schema (v0)
+- name: string (required)
+- affiliation: string
+- role: string
+- contact: string|object (optional)
+- profile: markdown (2–5 lines)
+- meshRelevance:
+  - potentialRole: enum {Anchor|Participant|Ally}
+  - interests: list
+  - valueToMesh: list
+- touchpoints: list
+- notes: markdown
